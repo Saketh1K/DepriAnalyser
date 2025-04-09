@@ -4,9 +4,9 @@ There are eight notebooks here, and each notebook will address different types o
 
 [Notebook 1] - ML/Structured/Tabular/CSV \
 [Notebook 2] - ML/Structured/Tabular/CSV \
-[Notebook 6] - DL/Unstructured/Text/CSV \
-[Notebook 7] - DL/Unstructured/Text/CSV \
-[Notebook 8] - DL/Unstructured/Text/CSV
+[Notebook 3] - DL/Unstructured/Text/CSV \
+[Notebook 4] - DL/Unstructured/Text/CSV \
+[Notebook 5] - DL/Unstructured/Text/CSV
 
 
 ## Notebook 1 -  <img align="right" src="https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"> <img align="right" src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
@@ -43,7 +43,7 @@ Tabular 2-class classification problem - 30 questions to classify the person is 
 1. Neural Network (acc: 0.893)
    
 
-## Notebook 6 -  <img align="right" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white">
+## Notebook 3 -  <img align="right" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white">
 
 Text classification (28-class) problem - Text loaded from [Go Emotions](https://huggingface.co/datasets/go_emotions) HuggingFace dataset to fit into a pretrained Bert tokenizer and model that classify the text emotion (e.g.: fear, embarrassment, happy...).
 
@@ -51,7 +51,7 @@ This model is a fine-tuned version of microsoft/xtremedistil-l6-h384-uncased on 
 
 Loss: 0.1234
 
-## Notebook 7 -  <img align="right" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white">
+## Notebook 4 -  <img align="right" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white">
 
 Text classification (2-class) problem - Text loaded from HuggingFace dataset (self-pushed dataset from Kaggle) to fit into a pretrained Bert tokenizer and model that classify whether the text is depression or non-depression. \
 
@@ -64,7 +64,7 @@ Accuracy: 0.9565
 
 Data have been preprocess - [preprocess notebook]
 
-## Notebook 8 -  <img align="right" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white">
+## Notebook 6 -  <img align="right" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white">
 
 Unsupervised representational text generation problem - Approximately 100 rows of texts were collected from multiple . Fine-tune a pretrained Distilled GPT2 model from HuggingFace.
 
